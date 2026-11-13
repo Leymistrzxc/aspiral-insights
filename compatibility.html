@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compatibility | Astral Insights</title>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="index.html"><svg class="logo" viewBox="-32 -32 64 64" aria-hidden="true"><circle r="16" fill="#E3BE6B"/><circle cx="6" cy="-3.5" r="14" fill="#0B1334"/></svg><span>Astral Insights</span></a>
+    <nav><a href="index.html">Home</a><a href="zodiac-signs.html">Zodiac Signs</a><a href="elements.html">Elements</a><a href="compatibility.html" class="on">Compatibility</a><a href="fun-facts.html">Fun Facts</a><a href="birthday-finder.html">Birthday Finder</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<h1 class="title">Compatibility</h1>
+<p class="center">See how well two signs match.</p>
+<section class="box">
+  <h2>Check a Pair</h2>
+  <div class="form-row">
+    <select id="signA"><option>Aries</option><option>Taurus</option><option>Gemini</option><option>Cancer</option><option>Leo</option><option>Virgo</option><option>Libra</option><option>Scorpio</option><option>Sagittarius</option><option>Capricorn</option><option>Aquarius</option><option>Pisces</option></select> <span>and</span> <select id="signB"><option>Aries</option><option>Taurus</option><option>Gemini</option><option>Cancer</option><option>Leo</option><option>Virgo</option><option>Libra</option><option>Scorpio</option><option>Sagittarius</option><option>Capricorn</option><option>Aquarius</option><option>Pisces</option></select>
+    <button id="checkBtn" class="btn">Check Match</button>
+  </div>
+  <p id="pairResult" class="result-line"></p>
+</section>
+<section>
+  <h2>All Pairings</h2>
+  <p>Read across a row to see how that sign matches each sign in the columns. Gold cells are the strongest matches and purple cells need the most effort.</p>
+  <div class="scroll"><table><tr><th></th><th title="Aries">Ari</th><th title="Taurus">Tau</th><th title="Gemini">Gem</th><th title="Cancer">Can</th><th title="Leo">Leo</th><th title="Virgo">Vir</th><th title="Libra">Lib</th><th title="Scorpio">Sco</th><th title="Sagittarius">Sag</th><th title="Capricorn">Cap</th><th title="Aquarius">Aqu</th><th title="Pisces">Pis</th></tr><tr><th>Aries</th><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td></tr><tr><th>Taurus</th><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td></tr><tr><th>Gemini</th><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td></tr><tr><th>Cancer</th><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td></tr><tr><th>Leo</th><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td></tr><tr><th>Virgo</th><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td></tr><tr><th>Libra</th><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td></tr><tr><th>Scorpio</th><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td></tr><tr><th>Sagittarius</th><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td><td class="">60</td></tr><tr><th>Capricorn</th><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td><td class="hi">85</td></tr><tr><th>Aquarius</th><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td><td class="lo">50</td></tr><tr><th>Pisces</th><td class="lo">50</td><td class="hi">85</td><td class="">60</td><td class="hi">90</td><td class="lo">45</td><td class="">70</td><td class="lo">45</td><td class="hi">90</td><td class="">60</td><td class="hi">85</td><td class="lo">50</td><td class="">75</td></tr></table></div>
+</section>
+<section>
+  <h2>How the Percentage Is Worked Out</h2>
+  <p>It depends on the distance between two signs on the zodiac wheel.</p>
+  <ul><li>Same sign: 75%</li><li>Next to each other: 50%</li><li>Two signs apart: 85%</li><li>Three signs apart: 60%</li><li>Four signs apart: 90%</li><li>Five signs apart: 45%</li><li>Opposite signs: 70%</li></ul>
+</section>
+</main>
+<footer>
+  <p>&copy; 2026 Astral Insights. All rights reserved.</p>
+  <p>Contact us: <a href="mailto:astralinsights@example.com">astralinsights@example.com</a> | +63 900 000 0000</p>
+  <p class="small">For entertainment only.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
